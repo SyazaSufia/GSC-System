@@ -35,8 +35,7 @@
             @foreach($snacks as $snack)
             <div class="snack-card">
                 <div class="snack-image">
-                    <img src="https://via.placeholder.com/200x150/ff6b35/ffffff?text={{ urlencode($snack['name']) }}"
-                         alt="{{ htmlspecialchars($snack['name']) }}">
+                    <img src="{{ asset('images/' . $snack['image']) }}" alt="{{ $snack['name'] }}">
                 </div>
                 <div class="snack-info">
                     <h3>{{ htmlspecialchars($snack['name']) }}</h3>

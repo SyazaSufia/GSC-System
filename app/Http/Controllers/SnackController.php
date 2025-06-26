@@ -7,12 +7,12 @@ class SnackController extends Controller
     private function getSnacks()
     {
         return [
-            ['id' => 1, 'name' => 'Popcorn (Large)', 'price' => 12.90, 'image' => 'popcorn.jpg'],
-            ['id' => 2, 'name' => 'Nachos with Cheese', 'price' => 8.90, 'image' => 'nachos.jpg'],
-            ['id' => 3, 'name' => 'Hot Dog', 'price' => 6.50, 'image' => 'hotdog.jpg'],
-            ['id' => 4, 'name' => 'Coke (Medium)', 'price' => 5.90, 'image' => 'coke.jpg'],
-            ['id' => 5, 'name' => 'Ice Cream', 'price' => 4.50, 'image' => 'icecream.jpg'],
-            ['id' => 6, 'name' => 'Candy Mix', 'price' => 7.90, 'image' => 'candy.jpg']
+            ['id' => 1, 'name' => 'Popcorn (Large)', 'price' => 12.90, 'image' => 'popcorn.svg'],
+            ['id' => 2, 'name' => 'Nachos with Cheese', 'price' => 8.90, 'image' => 'nachos.svg'],
+            ['id' => 3, 'name' => 'Hot Dog', 'price' => 6.50, 'image' => 'hotdog.svg'],
+            ['id' => 4, 'name' => 'Coke (Medium)', 'price' => 5.90, 'image' => 'coke.svg'],
+            ['id' => 5, 'name' => 'Ice Cream', 'price' => 4.50, 'image' => 'icecream.svg'],
+            ['id' => 6, 'name' => 'Candy Mix', 'price' => 7.90, 'image' => 'candy.svg']
         ];
     }
 
